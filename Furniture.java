@@ -6,3 +6,8 @@ public interface Furniture
   public void length (int length);
 }
 
+abstract class Shelf implements Furniture
+{
+  public Boolean getDoorsOpen();
+  public int ShelvesAmount();
+}
